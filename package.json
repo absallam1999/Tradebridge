@@ -1,0 +1,115 @@
+{
+  "name": "trade-bridge",
+  "version": "1.0.0",
+  "description": "Trade Bridge: Modern bulk e-commerce platform for wholesale inquiries",
+  "main": "src/main.jsx",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "format": "prettier --write src/**/*.{js,jsx,json,css,md}",
+    "analyze": "source-map-explorer 'dist/assets/*.js'",
+    "prepare": "husky install",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "keywords": [
+    "e-commerce",
+    "wholesale",
+    "bulk",
+    "react",
+    "tailwind",
+    "framer-motion",
+    "dark-mode",
+    "modern-ui",
+    "business",
+    "inquiry-system"
+  ],
+  "author": "Absallam [github.com/absallam1999]",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@hookform/resolvers": "^3.9.0",
+    "axios": "^1.7.9",
+    "clsx": "^2.1.1",
+    "date-fns": "^3.6.0",
+    "framer-motion": "^11.18.0",
+    "lodash.debounce": "^4.0.8",
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-error-boundary": "^4.0.13",
+    "react-helmet-async": "^2.0.4",
+    "react-hook-form": "^7.53.0",
+    "react-hot-toast": "^2.5.0",
+    "react-intersection-observer": "^9.10.2",
+    "react-router-dom": "^6.26.1",
+    "react-select": "^5.9.0",
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1",
+    "tailwind-merge": "^2.5.3",
+    "uuid": "^10.0.0",
+    "yup": "^1.4.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/line-clamp": "^0.4.4",
+    "@tailwindcss/typography": "^0.5.16",
+    "@testing-library/react": "^16.0.1",
+    "@testing-library/user-event": "^14.5.2",
+    "@types/react": "^19.0.7",
+    "@types/react-dom": "^19.0.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.17.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.16",
+    "gh-pages": "^6.3.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.4.3",
+    "postcss": "^8.5.3",
+    "prettier": "^3.4.2",
+    "prettier-plugin-tailwindcss": "^0.6.9",
+    "source-map-explorer": "^2.5.3",
+    "tailwindcss": "^3.4.17",
+    "jsdom": "^22.1.0",
+    "vite": "^6.0.11",
+    "vite-bundle-analyzer": "^1.0.1",
+    "vitest": "^0.34.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/absallam1999/PROJECT_REPO_HERE.git"
+  },
+  "bugs": {
+    "url": "https://github.com/absallam1999/PROJECT_REPO_HERE/issues"
+  },
+  "homepage": "https://new-domain.com",
+  "lint-staged": {
+    "src/**/*.{js,jsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "src/**/*.{css,json,md}": [
+      "prettier --write"
+    ]
+  }
+}

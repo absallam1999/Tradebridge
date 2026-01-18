@@ -1,0 +1,12 @@
+# Trade Bridge - Robots.txt
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemap
+Sitemap: https://tradebridge.com/sitemap.xml
+
+# Crawl-delay (for rate limiting)
+# Crawl-delay: 10
