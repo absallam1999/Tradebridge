@@ -1,0 +1,66 @@
+{
+  "name": "Trade Bridge - Wholesale Marketplace",
+  "short_name": "Trade Bridge",
+  "description": "Premium wholesale marketplace connecting businesses with trusted suppliers worldwide",
+  "theme_color": "#3b82f6",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Trade Bridge Desktop Interface"
+    },
+    {
+      "src": "/screenshots/mobile.png",
+      "sizes": "750x1334",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Trade Bridge Mobile Interface"
+    }
+  ],
+  "categories": ["business", "shopping", "productivity"],
+  "shortcuts": [
+    {
+      "name": "Browse Products",
+      "short_name": "Products",
+      "description": "Browse wholesale products",
+      "url": "/products",
+      "icons": [{ "src": "/icons/products-96x96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Request Quote",
+      "short_name": "Quote",
+      "description": "Request a custom quote",
+      "url": "/inquiry",
+      "icons": [{ "src": "/icons/quote-96x96.png", "sizes": "96x96" }]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
