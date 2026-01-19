@@ -6,9 +6,16 @@
       script-src 'self' 'unsafe-inline';
       style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
       font-src 'self' https://fonts.gstatic.com;
-      img-src 'self' data: blob:;
-      connect-src 'self';
-      frame-ancestors 'none';
-      base-uri 'self';
-      form-action 'self';
+      img-src 'self' data: https:;
+      connect-src 'self' https:;
     """
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
